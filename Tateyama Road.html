@@ -1,0 +1,573 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+    <title>天空の回廊「雪の大谷」はこうして生まれる！感動のプロセス</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Noto+Sans+JP:wght@400;700&amp;display=swap" rel="stylesheet"></link>
+    <style>
+        /* CSS変数の定義 */
+        :root {
+            --ocean-dark: #023e8a;
+            --ocean-medium: #0077b6;
+            --ocean-light: #48cae4;
+            --ocean-very-light: #ade8f4;
+            --ocean-super-light: #caf0f8;
+            --page-bg: #f0f8ff;
+            --card-bg: #ffffff;
+            --text-dark: #012a4a;
+            --text-light: #ffffff;
+            --accent-yellow: #ffc107;
+            --gray-light: #dee2e6;
+            --gray-medium: #adb5bd;
+            --gray-dark: #6c757d;
+        }
+
+        #yuki-no-otani-content * {
+            box-sizing: border-box;
+        }
+
+        #yuki-no-otani-content {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--page-bg);
+            color: var(--text-dark);
+            line-height: 1.8;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            max-width: 1280px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        #yuki-no-otani-content h1,
+        #yuki-no-otani-content h2,
+        #yuki-no-otani-content h3,
+        #yuki-no-otani-content h4,
+        #yuki-no-otani-content h5,
+        #yuki-no-otani-content h6 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--ocean-dark);
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.75em;
+        }
+
+        #yuki-no-otani-content .page-main-container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+        }
+        @media (min-width: 768px) {
+            #yuki-no-otani-content .page-main-container {
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
+        }
+
+        #yuki-no-otani-content .rich-flat-header {
+            background: linear-gradient(135deg, var(--ocean-dark) 0%, var(--ocean-light) 100%);
+            padding: 2.5rem 1rem; /* 修正: 上下パディングを少し減らし、左右パディングを確保 */
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 50, 100, 0.15);
+        }
+
+        #yuki-no-otani-content .rich-flat-header h1 {
+            color: var(--text-light);
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3; /* 修正: 行間を少し広げる */
+            word-break: break-word; /* 修正: 長い単語でも折り返す */
+        }
+        @media (min-width: 768px) {
+            #yuki-no-otani-content .rich-flat-header h1 {
+                font-size: 2.75rem;
+                line-height: 1.2;
+            }
+        }
+        @media (max-width: 480px) { /* 修正: スマートフォン縦向きなど狭い画面での調整 */
+            #yuki-no-otani-content .rich-flat-header h1 {
+                font-size: 1.8rem; /* フォントサイズを小さく */
+                line-height: 1.4; /* 行間を確保 */
+            }
+        }
+
+        #yuki-no-otani-content .content-card {
+            background-color: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 24px rgba(2, 62, 138, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        #yuki-no-otani-content .content-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 32px rgba(2, 62, 138, 0.2);
+        }
+        #yuki-no-otani-content .content-card h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid var(--ocean-very-light);
+            display: inline-block;
+        }
+        #yuki-no-otani-content .content-card p,
+        #yuki-no-otani-content .content-card p.intro-text {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            margin-bottom: 1em;
+        }
+        #yuki-no-otani-content .content-card p:last-child {
+            margin-bottom: 0;
+        }
+        
+        #yuki-no-otani-content .section-title-gradient {
+            background: linear-gradient(90deg, var(--ocean-medium), var(--ocean-light));
+            color: var(--text-light);
+            padding: 1rem 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        #yuki-no-otani-content .highlight-marker {
+            background: linear-gradient(transparent 60%, var(--accent-yellow) 60%);
+            padding: 0.1em 0.2em;
+            font-weight: bold;
+        }
+        #yuki-no-otani-content .accent-box {
+            background-color: var(--accent-yellow);
+            color: var(--text-dark);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+        #yuki-no-otani-content .accent-box p { margin-bottom: 0; }
+
+        #yuki-no-otani-content .table-overflow-wrapper {
+            overflow-x: auto;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+        #yuki-no-otani-content .custom-table {
+            width: 100%;
+            min-width: 600px;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            overflow: hidden;
+            border-radius: 0.5rem;
+        }
+        #yuki-no-otani-content .custom-table th, 
+        #yuki-no-otani-content .custom-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-light);
+            vertical-align: top;
+        }
+        #yuki-no-otani-content .custom-table thead th {
+            background: linear-gradient(90deg, var(--ocean-medium), var(--ocean-light));
+            color: var(--text-light);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        #yuki-no-otani-content .custom-table thead th .table-header-icon {
+            margin-right: 0.5em;
+            font-size: 1.1em;
+        }
+        #yuki-no-otani-content .custom-table tbody tr:nth-child(even) {
+            background-color: var(--ocean-super-light);
+        }
+        #yuki-no-otani-content .custom-table tbody tr:nth-child(odd) {
+            background-color: var(--card-bg);
+        }
+        #yuki-no-otani-content .custom-table tbody tr:hover {
+            background-color: var(--ocean-very-light);
+            transition: background-color 0.2s ease;
+        }
+
+        #yuki-no-otani-content .step-flow-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        #yuki-no-otani-content .step-item {
+            display: flex;
+            align-items: flex-start;
+            background-color: var(--ocean-super-light);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border-left: 5px solid var(--ocean-medium);
+            position: relative;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        #yuki-no-otani-content .step-item:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 90, 150, 0.15);
+        }
+        #yuki-no-otani-content .step-icon-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--ocean-medium), var(--ocean-light));
+            color: var(--text-light);
+            font-size: 1.8em;
+            line-height: 1;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+            text-align: center;
+        }
+        #yuki-no-otani-content .step-content h3 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: var(--ocean-dark);
+            font-size: 1.25rem;
+        }
+        #yuki-no-otani-content .step-content p {
+            margin-bottom: 0;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+        
+        #yuki-no-otani-content .responsive-img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: block;
+        }
+        
+        #yuki-no-otani-content .list-item-hoverable {
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+        }
+        #yuki-no-otani-content .list-item-hoverable:hover {
+            transform: translateX(5px) scale(1.01);
+            box-shadow: 0 6px 12px rgba(2, 62, 138, 0.15);
+            background-color: var(--ocean-super-light);
+        }
+        #yuki-no-otani-content .list-item-hoverable .list-icon {
+            color: var(--ocean-medium);
+            margin-right: 0.75rem;
+            display: inline-block;
+            font-size: 1.1em;
+            width: 1.2em;
+            text-align: center;
+        }
+
+        #yuki-no-otani-content .rich-flat-footer {
+            background-color: var(--ocean-dark);
+            color: var(--ocean-very-light);
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        #yuki-no-otani-content .rich-flat-footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        #yuki-no-otani-content .rich-flat-footer p.footer-margin-top-1 { margin-top: 0.25rem; }
+        #yuki-no-otani-content .rich-flat-footer p.footer-margin-top-2 { margin-top: 0.5rem; }
+        #yuki-no-otani-content .rich-flat-footer a {
+            color: var(--ocean-light);
+            text-decoration: none;
+        }
+        #yuki-no-otani-content .rich-flat-footer a:hover {
+            text-decoration: underline;
+        }
+
+        #yuki-no-otani-content .text-ocean-dark-manual {
+            color: var(--ocean-dark);
+        }
+        #yuki-no-otani-content .content-card h2 .h2-icon {
+            font-size: 1.2em;
+            margin-right: 0.6em;
+            color: var(--ocean-medium);
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #yuki-no-otani-content .section-title-gradient .title-icon {
+             margin-right: 0.6em;
+             display: inline-block;
+             font-size: 1.1em;
+             vertical-align: middle;
+        }
+        #yuki-no-otani-content section > p {
+            margin-bottom: 1.5rem;
+        }
+        #yuki-no-otani-content section > p:last-child {
+            margin-bottom: 0;
+        }
+        /* #yuki-no-otani-content section > img.responsive-img は個別画像用なので、このセクションのスタイルは不要かも */
+        #yuki-no-otani-content section > .accent-box {
+             margin-top: 2rem;
+        }
+        #yuki-no-otani-content .content-card p.summary-text-after {
+            margin-top: 1rem;
+        }
+
+        /* 写真ギャラリー用のスタイル */
+        #yuki-no-otani-content .photo-gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            /* margin-top: 2rem; /* step-flow-containerにmargin-bottomを設定したので、ここは0でも良いかも */
+            /* margin-bottom: 2rem; */
+        }
+        #yuki-no-otani-content .photo-item {
+            flex: 1 1 calc(33.333% - 1rem);
+            max-width: calc(33.333% - 1rem);
+            min-width: 280px;
+            background-color: var(--card-bg);
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 0.5rem;
+            transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        }
+        #yuki-no-otani-content .photo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+        #yuki-no-otani-content .gallery-photo {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        #yuki-no-otani-content .caption {
+            font-size: 0.9em;
+            color: var(--text-dark);
+            margin-top: 0.75rem;
+            margin-bottom: 0.25rem;
+            padding: 0 0.5rem;
+        }
+        @media (max-width: 900px) {
+            #yuki-no-otani-content .photo-item {
+                flex-basis: calc(50% - 0.5rem);
+                max-width: calc(50% - 0.5rem);
+            }
+        }
+        @media (max-width: 600px) {
+            #yuki-no-otani-content .photo-item {
+                flex-basis: 100%;
+                max-width: 100%;
+                min-width: unset;
+            }
+            #yuki-no-otani-content .gallery-photo {
+                height: auto;
+                max-height: 300px;
+            }
+        }
+    </style>
+</head>
+<body id="yuki-no-otani-content"> <!-- Blogger貼り付け時は <div id="yuki-no-otani-content"> に変更 -->
+
+    <!-- Header -->
+    <header class="rich-flat-header">
+        <h1>天空の回廊「雪の大谷」はこうして生まれる！感動のプロセス</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-main-container">
+
+        <section class="content-card">
+            <h2><span class="h2-icon">🏔️</span> はじめに：雪の巨大迷路へようこそ！</h2>
+            <p class="intro-text">
+                みなさん、こんにちは！春の立山黒部アルペンルートに現れる、息をのむような<span class="highlight-marker">巨大な雪の壁「雪の大谷」</span>。
+                まるで雪の巨大迷路みたいですよね！でも、あの高い雪の壁って、一体どうやって作られているんでしょう？
+                実は、そこには<strong class="text-ocean-dark-manual">最新技術</strong>と<strong class="text-ocean-dark-manual">熟練の技</strong>が詰まっているんです。
+                このページでは、その驚きのプロセスを、ステップごとに分かりやすくご紹介します！
+            </p>
+            <img alt="雪の大谷の壮大な全景イメージ" class="responsive-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWvVgpySPR8QuMMB8F_orxVTLn8Ves1lPkuSPPGEG5Bxzwk_3sPiOieD7jIxLMQw3aCblKSmtcDAXj5pMsBAaS_nHSNDRDtQtse41MXiCR_QcRad3Q8VaX8F5phgOCGkkriI-EK5JJnNdoXjDZyJ_gUjXu4DC3cwKKqUSLUOgnaZPhf-YcTVHUh2qxu72z/w467-h311/9ece03c7382600c620349430b400bb1a-scaled.jpg" />
+        </section>
+
+        <section class="content-card">
+            <h2 class="section-title-gradient"><span class="title-icon">⛏️</span> 圧巻！雪の大谷 創造の6ステップ</h2>
+            <p>
+                雪の大谷は、まるで芸術作品のように、いくつかの丁寧なステップを経て創り上げられます。
+                ここでは、その主要な6つのステップを見ていきましょう！
+            </p>
+            <div class="step-flow-container">
+                <div class="step-item">
+                    <div class="step-icon-container">🛰️</div>
+                    <div class="step-content">
+                        <h3>ステップ1：<span class="highlight-marker">GPSで精密調査！</span>未来予測の準備</h3>
+                        <p>
+                            まずは、雪が積もった道路の正確な位置を<strong class="text-ocean-dark-manual">GPS</strong>で測量します。
+                            「今年は雪が多いかな？」「道はどこを通ってるかな？」と、まるで未来を予測するように、除雪ルートの基本データを作るんです。これが全ての始まり！
+                        </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon-container">🚩</div>
+                    <div class="step-content">
+                        <h3>ステップ2：<span class="highlight-marker">道しるべのポール設置！</span>雪の中の灯台</h3>
+                        <p>
+                            次に、測量データをもとに、道路の端っこに沿って<strong class="text-ocean-dark-manual">目印のポール</strong>を立てていきます。
+                            雪に埋もれても見えるように、長くて目立つ色のポールを使うんですよ。これが除雪作業の頼れる「灯台」になります。
+                        </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon-container">🚜</div>
+                    <div class="step-content">
+                        <h3>ステップ3：<span class="highlight-marker">GPSブルドーザー出動！</span>最初の道切り</h3>
+                        <p>
+                            いよいよ除雪開始！<strong class="text-ocean-dark-manual">GPSを積んだブルドーザー</strong>が先頭バッターです。
+                            GPS情報で道を確認しながら、雪を掘り進んで最初の道を作ります。深い雪の中では、GPSがまさに「道しるべ」なんです。
+                        </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon-container">🌬️</div>
+                    <div class="step-content">
+                        <h3>ステップ4：<span class="highlight-marker">大型除雪車で本格除雪！</span>GPSとポールの連携プレー</h3>
+                        <p>
+                            最初の道ができたら、大型のブルドーザーやロータリー除雪車が本格的に雪を取り除きます。
+                            オペレーターさんは、<strong class="text-ocean-dark-manual">GPS画面</strong>で自分の位置とルートを確認しつつ、目の前の<strong class="text-ocean-dark-manual">ポール</strong>を目印にして、正確に道幅を確保していきます。まさにハイテクとアナログの連携プレー！
+                        </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon-container">📏</div>
+                    <div class="step-content">
+                        <h3>ステップ5：<span class="highlight-marker">雪壁を垂直に！</span>職人技の壁づくり</h3>
+                        <p>
+                            あの垂直に切り立った美しい雪壁も、<strong class="text-ocean-dark-manual">ポール</strong>が重要な役割を果たします。
+                            ポールを目安にしながら、雪を削る高さを調整し、均一で美しい壁を作り上げていくんです。これはまさに職人技ですね！
+                        </p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-icon-container">✅</div>
+                    <div class="step-content">
+                        <h3>ステップ6：<span class="highlight-marker">仕上げて完成！</span>安全な天空の回廊へ</h3>
+                        <p>
+                            最後に、ポールに沿って道の幅や雪壁の形をきれいに整え、みんなが安全に通れるように仕上げます。
+                            こうして、あの壮大な「雪の大谷」が完成するのです！
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 写真ギャラリー -->
+            <div class="photo-gallery-container">
+                <div class="photo-item">
+                    <img alt="パイロット除雪" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0XLLctRZliovxIGL4v2mKCWEoMH39ZzrbTK6O12GMXi1UT7LWNum3OizmIzvm7Kdf9cxOzfuoU7Iy56-xJdaKe35ODgFitvRLI7mjf8VZLuf8rT55wB716SkglY8opHDu8Fu-OtuPUCLzfgpbToWoUl1ge387G4epieBIk04gzEZEw-o18kryMrrTeFu0/s320/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-05-15%20063133.png" />
+                    <p class="caption">パイロット除雪</p>
+                </div>
+                <div class="photo-item">
+                    <img alt="1車線除雪" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIgzXJPRZHqPkK0ypUsAE3dR5hMRJGlrz_MMJWh_HBkO_dD7vD0vYHoTwHrwMqxon6sJajUxegMmS0sY9-TmOyEW1AHHntZOVH6x9_lScYQ1vtQl5bTesF6nnW2lexQu-E56mK0E6GdW4gUzDUI2G2byjmwMJ17IHpZ86dltivxydQNdRTFnCb8U6Xu3Bg/s320/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-05-15%20063154.png" />
+                    <p class="caption">1車線除雪</p>
+                </div>
+                <div class="photo-item">
+                    <img alt="拡幅除雪（バックホウ）" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje0yzvdvVnmlIHYJr_a60_UOf8cw3cfvxKn2H_UJvdoSkZm-NO-pRhotjniLOl7an9vU2EQ062ip90d-WnSReMxaz7dwfVEc-QUmcN8JxCbSWuYYchzYLKr1-3pAwUPm3Qfd-vwBwWVYhAhpVcNdfGFq63_XpEeb2fDQc1trT4Zh8i3urO8sqT8g7uvkhF/s320/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-05-15%20063207.png" />
+                    <p class="caption">拡幅除雪（バックホウ）</p>
+                </div>
+                <div class="photo-item">
+                    <img alt="拡幅除雪（ロータリー）" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk_1Eq03IAGj8c7ww7h7vfS0NkSRAlzMMBbuq37vAynPsM8YEJRARK4ocHAroVUGSBDndtagdJxkIaFxFULDqILkVr6Wo0VmlH6w9sFR8SD84CP3cnF9P7Ab2N0y9bwoUZaiSk8LemIRaskC9BGOGyPZDZtpUX0ASzdp97wWlejAJJBFl53AT7Xc3ZJDsy/s320/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-05-15%20063220.png" />
+                    <p class="caption">拡幅除雪（ロータリー）</p>
+                </div>
+                <div class="photo-item">
+                    <img alt="雪の大谷（上空から）" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDbi9MeB4AnZEDhSQhJQ43A2RxMdQH42Rh83DVXEY-Q0d9rwwdsyhpnuZoeXjtE-doqqJPNsKvz3vOqUTRk7hYOTcYTthCmnnXUinqAwymG3nr8ynL2N7UOLQn5vhz-bKVCO0w1l2JeXbOHMqp1sFT7PUiFYDY1ElDZip4Z7QWaZ4RB5FklzvFH7f5EWWp/s320/unnamed.png" />
+                    <p class="caption">雪の大谷（上空から）</p>
+                </div>
+                <div class="photo-item">
+                    <img alt="完成した雪の大谷" class="gallery-photo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe_bPnErqQBbmBDJtXCZUVl5IlE9zBY01YxM02MIPKwoQX8mO9TITSCymZpqtdm3DCgHjaskmAv1SD7VQvMfEzltwwLiYr4XVh4Dd_cfuPqxqGi0gN2J6mPXfJVh8JKnoPcwQWPRRoP5VBfv7EtaQojWrVWAOfg7uL9O297FRoERz0jyHP3GrnU32Jk8eK/s320/unnamed%20(1).png" />
+                    <p class="caption">完成した雪の大谷</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2 class="section-title-gradient"><span class="title-icon">⚖️</span> ハイテク vs 伝統！GPSとポールの役割を比べてみよう</h2>
+            <p>
+                雪の大谷づくりには、最新技術の「GPS」と、昔ながらの「ポール」が欠かせません。それぞれどんな役割があるのか、比べてみましょう！
+            </p>
+            <div class="table-overflow-wrapper">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>特徴</th>
+                            <th><span class="table-header-icon">🛰️</span> GPS (全地球測位システム)</th>
+                            <th><span class="table-header-icon">🚩</span> ポール (目印の棒)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>主な役割</strong></td>
+                            <td><strong class="text-ocean-dark-manual">計画・ルート設定・初期の道筋づくり</strong><br />全体の設計図を描き、最初の道案内をする司令塔！</td>
+                            <td><strong class="text-ocean-dark-manual">現場での視覚的ガイド</strong><br />実際に作業する時の、目で見てわかる道しるべ！</td>
+                        </tr>
+                        <tr>
+                            <td><strong>得意なこと</strong></td>
+                            <td class="list-item-hoverable"><span class="list-icon">🗺️</span> 広範囲の位置特定、正確なルート維持</td>
+                            <td class="list-item-hoverable"><span class="list-icon">👁️</span> 左右の境界線の視覚的確認、高さの目安</td>
+                        </tr>
+                        <tr>
+                            <td><strong>活躍する場面</strong></td>
+                            <td class="list-item-hoverable"><span class="list-icon">🌨️</span> 特に視界が悪い時、雪が深い初期段階</td>
+                            <td class="list-item-hoverable"><span class="list-icon">⛰️</span> 実際の掘削作業中、壁の形成時</td>
+                        </tr>
+                        <tr>
+                            <td><strong>イメージ</strong></td>
+                            <td>頭脳明晰な<span class="highlight-marker">ナビゲーター</span></td>
+                            <td>頼りになる現場の<span class="highlight-marker">ガイドさん</span></td>
+                        </tr>
+                         <tr>
+                            <td><strong>技術</strong></td>
+                            <td><span class="highlight-marker">最先端テクノロジー</span></td>
+                            <td><span class="highlight-marker">伝統的な知恵</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="accent-box">
+                <p><span class="list-icon">💡</span> ポイント：GPSとポール、どちらも超重要！お互いの得意なことを活かして、あのすごい雪の壁ができあがるんですね！</p>
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2><span class="h2-icon">🤝</span> まとめ：技術と知恵の結晶！</h2>
+            <p class="intro-text">
+                いかがでしたか？「雪の大谷」は、<strong class="text-ocean-dark-manual">GPSという最新技術</strong>が計画やルート設定、初期の道筋づくりを正確にサポートし、
+                <strong class="text-ocean-dark-manual">ポールという伝統的な目印</strong>が、実際の作業でオペレーターさんが目で見て確認するための大切なガイドとなる…。
+                この二つの技術と知恵が力を合わせることで、毎年私たちを感動させてくれる、あの壮大で安全な「雪の大谷」が創り上げられているんですね！
+            </p>
+            <p class="summary-text-after">
+                まさに、<span class="highlight-marker">人と技術の素晴らしい共同作業</span>と言えるでしょう。
+                次に雪の大谷を訪れる機会があれば、ぜひこの創造の物語を思い出してみてくださいね！
+            </p>
+            <img alt="完成した雪の大谷と観光客のイメージ" class="responsive-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz4NR2_J04EZlGgjGeKCOfMiazULm_84NJWMl0JBu7-jR1sZ0B3OL_E3nysgO5S4MlSqNGnl-Wv0YHhi66yEDEbaycgr1A1RNBtuzX4Tlj6jwo4fRxNcKANvNAOQMCv8yCid-1VI2wWPqaCfhwrP6IPgGMRcdkPBs68Gb31AKmZxg19Kdv80URq5TOPQY9/s320/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-05-15%20221516.png" />
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="rich-flat-footer">
+        <p>© 2024 天空の回廊「雪の大谷」感動プロセス. All Rights Reserved.</p>
+        <p class="footer-margin-top-1">情報提供: 雪の大谷.pdf (アップロード資料)</p>
+        <p class="footer-margin-top-2">
+            <a href="https://www.alpen-route.com/enjoy_navi/snow_otani/" rel="noopener noreferrer" target="_blank">立山黒部アルペンルート公式サイトでさらに詳しく</a>
+        </p>
+        <p class="footer-margin-top-2">
+            <a href="https://www.alpen-route.com/live_camera/murodou.html" rel="noopener noreferrer" target="_blank">立山室堂平ライブカメラはこちら</a>
+        </p>
+    </footer>
+
+</body> <!-- Blogger貼り付け時は </div> に変更 -->
+</html>
